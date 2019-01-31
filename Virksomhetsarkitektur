@@ -9,71 +9,72 @@
 @prefix schema: <http://schema.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
-<https://begrep.difi.no/2> a skos:concept; #oversette
-  skosxl:prefLabel [
-    a skosxl:Label ;
-    skosxl:literalForm "Applikasjonsarkitektur"@nb ;
-      ] ;
-  skosno:betydningsbeskrivelse [
-  	a skosno:Definisjon ;
-  	rdfs:label "en beskrivelse av struktur og interaksjon mellom applikasjoner,
+
+<https://begrep.difi.no/2> a skos:concept;  # Begrep
+  skosxl:prefLabel [                        # term
+    a skosxl:Label ;                        # AnbefaltTerm
+    skosxl:literalForm "Applikasjonsarkitektur"@nb ; # navn
+  ] ;
+  skosno:betydningsbeskrivelse [            # betydningsbeskrivelse
+  	a skosno:Definisjon ;                   # Definisjon
+  	rdfs:label "en beskrivelse av struktur og interaksjon mellom applikasjoner, # tekst
     gruppert i kapabiliteter som tilbyr viktige forretningsfunksjoner og håndterer
     dataressurser."@nb ;
-  	dct:source [
-  	rdfs:label "TOGAF v. 9.1 § 3.4 (Application architecture)"@nb ;
-  	   ] ;
-  dct:publisher <https://data.brreg.no/enhetsregisteret/api/enheter/991825827> ;
-  dct:subject "Virksomhetsarkitektur"@nb ;
-  dct:identifier "https://begrep.difi.no/2" ;
+  	dct:source [                            # kildebeskrivelse
+  	 rdfs:label "TOGAF v. 9.1 § 3.4 (Application architecture)"@nb ;             # tekst
+  	] ;
+  dct:publisher <https://data.brreg.no/enhetsregisteret/api/enheter/991825827> ; # ansvarligVirksomhet
+  dct:subject "Virksomhetsarkitektur"@nb ;                                       # fagområdet
+  dct:identifier "https://begrep.difi.no/2" ;                                    # identifikator
 
-<https://begrep.difi.no/9> a skos:concept; #oversette
-    skosxl:prefLabel [
-      a skosxl:Label ;
-      skosxl:literalForm "Arkitekturrammeverk"@nb ;
-        ] ;
-    skosno:betydningsbeskrivelse [
-    	a skosno:Definisjon ;
-    	rdfs:label "en konseptuell struktur for innhold og prosess som brukes for å utvikle,
-      implementere og forvalte en arkitektur."@nb ;
-    	dct:source [
-    	rdfs:label "TOGAF v. 9.1 § 3.13 (Architecture Framework)"@nb ;
-    	   ] ;
-    dct:publisher <https://data.brreg.no/enhetsregisteret/api/enheter/991825827> ;
-    dct:subject "Virksomhetsarkitektur"@nb ;
-    dct:identifier "https://begrep.difi.no/9" ;
+<https://begrep.difi.no/9> a skos:concept;  # Begrep
+  skosxl:prefLabel [                        # term
+    a skosxl:Label ;                        # AnbefaltTerm
+    skosxl:literalForm "Arkitekturrammeverk"@nb ; # navn
+  ] ;
+  skosno:betydningsbeskrivelse [            # betydningsbeskrivelse
+    a skosno:Definisjon ;                   # Definisjon
+    rdfs:label "en konseptuell struktur for innhold og prosess som brukes for å utvikle, # tekst
+    implementere og forvalte en arkitektur."@nb ;
+    dct:source [                            # kildebeskrivelse
+      rdfs:label "TOGAF v. 9.1 § 3.13 (Architecture Framework)"@nb ;              # tekst
+    ] ;
+  dct:publisher <https://data.brreg.no/enhetsregisteret/api/enheter/991825827> ; # ansvarligVirksomhet
+  dct:subject "Virksomhetsarkitektur"@nb ;                                       # fagområdet
+  dct:identifier "https://begrep.difi.no/9" ;                                    # identifikator
 
-  <https://begrep.difi.no/11> a skos:concept; #oversette
-        skosxl:prefLabel [
-          a skosxl:Label ;
-          skosxl:literalForm "Dataarkitektur"@nb ;
-            ] ;
-        skosno:betydningsbeskrivelse [
-        	a skosno:Definisjon ;
-        	rdfs:label "strukturen til en organisasjons logiske og fysiske dataressurser og
-          ressurser til dataadministrasjon."@nb ;
-        	dct:source [
-        	rdfs:label "TOGAF v. 9.1 § 3.32 (Data architecture)"@nb ;
-        	   ] ;
-        dct:publisher <https://data.brreg.no/enhetsregisteret/api/enheter/991825827> ;
-        dct:subject "Virksomhetsarkitektur"@nb ;
-        dct:identifier "https://begrep.difi.no/11" ;
+<https://begrep.difi.no/11> a skos:concept; # Begrep
+  skosxl:prefLabel [                        # term
+    a skosxl:Label ;                        # AnbefaltTerm
+    skosxl:literalForm "Dataarkitektur"@nb ; # navn
+  ] ;
+  skosno:betydningsbeskrivelse [            # betydningsbeskrivelse
+    a skosno:Definisjon ;                   # Definisjon
+    rdfs:label "strukturen til en organisasjons logiske og fysiske dataressurser og   # tekst
+    ressurser til dataadministrasjon."@nb ;
+    dct:source [                            # kildebeskrivelse
+      rdfs:label "TOGAF v. 9.1 § 3.32 (Data architecture)"@nb ;                   # tekst
+    ] ;
+  dct:publisher <https://data.brreg.no/enhetsregisteret/api/enheter/991825827> ; # ansvarligVirksomhet
+  dct:subject "Virksomhetsarkitektur"@nb ;                                       # fagområdet
+  dct:identifier "https://begrep.difi.no/11" ;                                   # identifikator
 
-<https://begrep.difi.no/17> a skos:concept; #oversette
-    skosxl:prefLabel [
-        a skosxl:Label ;
-        skosxl:literalForm "Felleskomponenteier"@nb ;
-         ] ;
-    skosno:betydningsbeskrivelse [
-        a skosno:Definisjon ;
-        rdfs:label "den som er ansvarlig for de strategiske prinsippene som gir retning i
-        bruk og forvaltning av en felleskomponent, og sikrer samordnet styring og utvikling av
-        felleskomponenten."@nb ;
-        dct:source [
-        rdfs:label "Nasjonale felleskomponenter i offentlig sektor (Rapport 2010:17)"@nb ;
-         ] ;
-        dct:publisher <https://data.brreg.no/enhetsregisteret/api/enheter/991825827> ;
-        dct:subject "Felleskomponent"@nb ;
-        dct:identifier "https://begrep.difi.no/17" ;
+<https://begrep.difi.no/17> a skos:concept; # Begrep
+  skosxl:prefLabel [                        # term
+    a skosxl:Label ;                        # AnbefaltTerm
+    skosxl:literalForm "Felleskomponenteier"@nb ; # navn
+  ] ;
+  skosno:betydningsbeskrivelse [            # betydningsbeskrivelse
+    a skosno:Definisjon ;                   # Definisjon
+    rdfs:label "den som er ansvarlig for de strategiske prinsippene som gir retning i   # tekst
+    bruk og forvaltning av en felleskomponent, og sikrer samordnet styring og utvikling av
+    felleskomponenten."@nb ;
+    dct:source [                            # kildebeskrivelse
+      rdfs:label "Nasjonale felleskomponenter i offentlig sektor (Rapport 2010:17)"@nb ; # tekst
+    ] ;
+  dct:publisher <https://data.brreg.no/enhetsregisteret/api/enheter/991825827> ; # ansvarligVirksomhet
+  dct:subject "Felleskomponent"@nb ;                                             # fagområdet
+  dct:identifier "https://begrep.difi.no/17" ;                                   # identifikator
 
 <https://begrep.difi.no/18> a skos:concept; #oversette
       skosxl:prefLabel [
