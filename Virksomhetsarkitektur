@@ -10,7 +10,8 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 
-<https://begrep.difi.no/2> a skos:Concept;  # Begrep
+<https://begrep.difi.no/2> 
+  a skos:Concept;  # Begrep
   skosxl:prefLabel [                        # term
     a skosxl:Label ;                        # AnbefaltTerm
     skosxl:literalForm "Applikasjonsarkitektur"@nb ; # navn
